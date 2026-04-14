@@ -8,9 +8,9 @@ print(type('100'))
 # Transformar un string a un entero
 print(type(int('100')))
 
-print(type(float(3.14)))
+print(type(int(3.14)))
 print(int(3.8))
-print(round(3.45))
+print(round(3.55))
 print(round(3.14159, 2)) # Redondear a 2 decimales
 
 print(bool(5)) # Cualquier número distinto de cero es True, incluso los negativos.
